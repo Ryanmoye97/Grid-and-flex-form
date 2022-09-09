@@ -1,0 +1,40 @@
+.contact {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+    
+    h2 {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    
+    label {
+      display: flex;
+      flex-direction: column-reverse;
+      background: darkblue
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    textarea {
+      display: flex;
+      flex-direction: column;
+      justify-content: right;
+    }
+  
+    input[type="submit"] {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+      background: darkblue
+      color:red
+    }
